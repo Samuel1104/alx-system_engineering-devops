@@ -1,2 +1,2 @@
 #!/bin/bash
-home_directory=$(getent passwd "$USER" | awk -F: '{print $6}') \n cd "$home_directory" \n echo "Working directory changed to: $home_directory" \n
+home_directory=$(getent passwd "$USER" | awk -F: '{print $6}') | cd "$home_directory" | echo "Working directory changed to: $home_directory" \n
