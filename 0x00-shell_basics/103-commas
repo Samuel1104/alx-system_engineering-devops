@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -mpav . |grep '[a-zA-Z0-9]' | echo
+ls -mpav . | grep '[0-9A-Za-z]'
