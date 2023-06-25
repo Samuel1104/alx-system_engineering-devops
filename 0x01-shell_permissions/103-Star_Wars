@@ -1,2 +1,2 @@
 #!/bin/bash
-mpv StarWars_IV.mp4
+mpv --no-terminal StarWars_IV.mp4
