@@ -1,2 +1,2 @@
 /bin/bash
-tail -n 1 iacta >> iacta
+tac iacta | sed '1!b;q' >> iacta
